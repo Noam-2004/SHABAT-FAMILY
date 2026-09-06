@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #fbf6ea; }
+body { max-width: 520px; margin: 0 auto; padding-bottom: 110px; }
+
+.chip { display:inline-flex; align-items:center; gap:6px; padding:9px 14px; border-radius:16px;
+  background:#fff; border:2px solid rgba(0,0,0,.08); font-weight:700; font-size:15px; cursor:pointer; }
+.chip.sel { background: linear-gradient(135deg, #0aa7a0, #33a06a); color:#fff; border-color:transparent; }
